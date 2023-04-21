@@ -27,4 +27,30 @@ public class Ravenclaw extends Hogwarts{
     public int getCreation() {
         return creation;
     }
+    public static void print(Ravenclaw[] ravStud) {
+        System.out.println("Когтевран :");
+
+        for (Ravenclaw st : ravStud) {
+            System.out.println("Имя: " + st.getFullName()
+                    + " Трансгрессия: " + st.getTransgretion()
+                    + " Магия: " + st.getMagic()
+                    + " Ум: " + st.getSmart()
+                    + " Мудрость: " + st.getWisdom()
+                    + " Остроумие: " + st.getWit()
+                    + " Творчество: " + st.getCreation());
+
+        }
+    }
+//    public static void bestStudentRavenclaw(Ravenclaw[] ravStud) {
+//        int sum = 0;
+//        int sum1;
+//        for (Ravenclaw st : ravStud) {
+//            sum1 = st.getCreation() + st.getWit() + st.getWisdom() + st.getMagic() + st.getSmart() + st.getTransgretion();
+//            if (sum1 > sum) {
+//                sum=sum1;
+//
+//            }
+//        }
+
+
 }

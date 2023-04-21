@@ -1,7 +1,7 @@
 public class Hogwarts {
-    private final String fullName;
-    private int magic;
-    private int transgretion;
+    private final String fullName;//  Имя
+    private int magic;//  Магия
+    private int transgretion;// трансгрессия
 
     public Hogwarts(String fullName, int magic, int transgretion) {
         this.fullName = fullName;
@@ -29,4 +29,7 @@ public class Hogwarts {
     public void setTransgretion(int transgretion) {
         this.transgretion = transgretion;
     }
-}
+
+
+    }
+
