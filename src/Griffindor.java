@@ -10,6 +10,7 @@ public class Griffindor  extends Hogwarts {
         this.courage = courage;
     }
 
+
     public int getNobility() {
         return nobility;
     }
@@ -33,31 +34,27 @@ public class Griffindor  extends Hogwarts {
     public void setCourage(int courage) {
         this.courage = courage;
     }
-    public static void print(Griffindor[] grifStud) {
-        System.out.println("Грифинодор : ");
 
-        for (Griffindor st : grifStud) {
-            System.out.println("Имя: " + st.getFullName()
-                    + " Трансгрессия: " + st.getTransgretion()
-                    + " Магия: " + st.getMagic()
-                    + " Благородство: " + st.getNobility()
-                    + " Честь: " + st.getHonor()
-                    + " Храбрость: " + st.getCourage());
+    public static void BestStudentGriffindor(Griffindor[] grifStud, String st, String st1) {
+        int sum;
+        int sum1;
+        for (Griffindor i : grifStud) {
+            for (Griffindor j : grifStud) {
+
+
+                sum = i.getCourage() + i.getNobility() + i.getMagic() + i.getHonor() + i.getTransgretion();
+                sum1 = j.getCourage() + j.getHonor() + j.getNobility() + j.getMagic() + j.getTransgretion();
+
+                if (sum1 > sum) {
+                    System.out.println(i.getFullName());
+
+                } else {
+                    System.out.println(i.getFullName());
+                }
+            }
 
         }
     }
-//    public static void bestStudentGriffindor(Griffindor[] grifStud) {
-//        int sum = 0;
-//        int sum1;
-//        for (Griffindor st : grifStud) {
-//            sum1 = st.getCourage() + st.getHonor() + st.getNobility() + st.getMagic() + st.getTransgretion();
-//            if (sum1 > sum) {
-//                sum=sum1;
-//                System.out.println(st.getFullName());
-//
-//            }
-//        }
-//
-//    }
 }
+
 

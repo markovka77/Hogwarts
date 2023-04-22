@@ -42,18 +42,18 @@ public class Main {
         };
         System.out.println("Всего студентов : " + students.length);
         System.out.println();
-        Griffindor.print(grifStud);
+        PrintService.print(grifStud);
         System.out.println();
-        Hufflepuff.print(hufStud);
+        PrintService.print(hufStud);
         System.out.println();
-        Ravenclaw.print(ravStud);
+        PrintService.print(ravStud);
         System.out.println();
-        Slytherin.print(slyStud);
+        PrintService.print(slyStud);
         System.out.println();
-      //  Griffindor.bestStudentGriffindor(grifStud);
-        //Hufflepuff.bestStudentHufflpuff(hufStud);
-        //Ravenclaw.bestStudentRavenclaw(ravStud);
-       // Slytherin.bestStudentSlytherin(slyStud);
+
+       // Griffindor.BestStudentGriffindor(grifStud,,2);
+
+
 
 
 

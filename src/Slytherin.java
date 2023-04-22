@@ -34,20 +34,7 @@ public class Slytherin extends  Hogwarts {
         return power;
     }
 
-    public static void print(Slytherin[] slyStud) {
-        System.out.println("Слизерин :");
 
-        for (Slytherin st : slyStud) {
-            System.out.println("Имя: " + st.getFullName()
-                    + " Трансгрессия: " + st.getTransgretion()
-                    + " Магия: " + st.getMagic()
-                    + " Хитрость: " + st.getCunning()
-                    + " Решительность: " + st.getDetermination()
-                    + " Амбициозность: " + st.getAmbition()
-                    + " Власть: " + st.getPower());
-
-        }
-    }
 
 //    public static void bestStudentSlytherin(Slytherin[] slyStud) {
 //        int sum = 0;

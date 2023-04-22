@@ -21,20 +21,7 @@ public class Hufflepuff extends Hogwarts{
     public int getHonesty() {
         return honesty;
     }
-    public static void print(Hufflepuff[] hufStud) {
-        System.out.println("Паффендуй :");
 
-        for (Hufflepuff st : hufStud) {
-            System.out.println("Имя: " + st.getFullName()
-                    + " Трансгрессия: " + st.getTransgretion()
-                    + " Магия: " + st.getMagic()
-                    + " Трудолюбте: " + st.getIndustriousness()
-                    + " Верность: " + st.getLoyalty()
-                    + " Честность: " + st.getHonesty());
-
-        }
-
-    }
 //    public static void bestStudentHufflpuff(Hufflepuff[] hufStud) {
 //        int sum = 0;
 //        int sum1;
